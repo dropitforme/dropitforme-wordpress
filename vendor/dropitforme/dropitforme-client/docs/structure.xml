@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project title="DropItForMe API Client Library for PHP" version="2.8.5">
+  <partials/>
+  <file path="dropItForMeClient.php" generated-path="dropItForMeClient.html" hash="cd8b5dd214660f0b8f91df9b07f0849f" package="Ajax Class">
+    <docblock line="0">
+      <description>DropItForMe API Client Library for PHP</description>
+      <long-description></long-description>
+      <tag name="copyright" line="0" description="2017, Brian Tafoya."/>
+      <tag name="package" line="0" description="Ajax Class"/>
+      <tag name="author" line="0" description="Brian Tafoya" link="mailto:btafoya@briantafoya.com"/>
+      <tag name="version" line="0" description="1.0.0"/>
+      <tag name="license" line="0" description="MIT" link="http://opensource.org/licenses/MIT"/>
+      <tag name="license" line="0" description="The MIT License" link="https://opensource.org/licenses/MIT"/>
+      <tag name="category" line="0" description="Web Application"/>
+      <tag name="uses" line="0" description="Guzzle is a PHP HTTP client library&#10;&#10;Copyright (c) 2017, Brian Tafoya&#10;&#10;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&#10;&#10;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&#10;&#10;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE." link="https://packagist.org/packages/guzzlehttp/guzzle"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="" line="26" package="Ajax Class">
+      <extends/>
+      <name>dropItForMeClient</name>
+      <full_name>\dropItForMeClient</full_name>
+      <docblock line="26">
+        <description>Class dropItForMeClient</description>
+        <long-description></long-description>
+        <tag name="package" line="26" description="Ajax Class"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="" line="32" package="Ajax Class">
+        <name>$api_key</name>
+        <full_name>\dropItForMeClient::api_key</full_name>
+        <default></default>
+        <docblock line="32">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="32" description="&lt;p&gt;API Key provided by &lt;a href=&quot;https://dropitforme.com&quot;&gt;https://dropitforme.com&lt;/a&gt;&lt;/p&gt;" type="string" variable="">
+            <type>string</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="private" namespace="" line="38" package="Ajax Class">
+        <name>$base_url</name>
+        <full_name>\dropItForMeClient::base_url</full_name>
+        <default>"https://dropitforme.com/"</default>
+        <docblock line="38">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="38" description="&lt;p&gt;API Endpoint&lt;/p&gt;" type="string" variable="">
+            <type>string</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="45" package="Ajax Class">
+        <name>__construct</name>
+        <full_name>\dropItForMeClient::__construct()</full_name>
+        <docblock line="45">
+          <description>dropItForMeClient constructor.</description>
+          <long-description></long-description>
+          <tag name="param" line="45" description="" type="" variable="$api_key"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$api_key</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="57" package="Ajax Class">
+        <name>validateEmail</name>
+        <full_name>\dropItForMeClient::validateEmail()</full_name>
+        <docblock line="57">
+          <description>validateEmail() Email address validation method</description>
+          <long-description></long-description>
+          <tag name="param" line="57" description="" type="" variable="$email"/>
+          <tag name="return" line="57" description="" type="array">
+            <type>array</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$email</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="79" package="Ajax Class">
+        <name>sendMessage</name>
+        <full_name>\dropItForMeClient::sendMessage()</full_name>
+        <docblock line="79">
+          <description>sendMessage() Send email method</description>
+          <long-description></long-description>
+          <tag name="param" line="79" description="" type="" variable="$email_to"/>
+          <tag name="param" line="79" description="" type="" variable="$email_to_name"/>
+          <tag name="param" line="79" description="" type="" variable="$email_subject"/>
+          <tag name="param" line="79" description="" type="" variable="$email_body"/>
+          <tag name="param" line="79" description="" type="" variable="$email_body_type"/>
+          <tag name="param" line="79" description="" type="" variable="$email_from"/>
+          <tag name="param" line="79" description="" type="" variable="$email_from_name"/>
+          <tag name="param" line="79" description="" type="string" variable="$attachment_path">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="79" description="" type="string" variable="$attachment_base64">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="79" description="" type="string" variable="$attachment_name">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="79" description="" type="string" variable="$callback_url">
+            <type>string</type>
+          </tag>
+          <tag name="return" line="79" description="" type="array">
+            <type>array</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$email_to</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$email_to_name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$email_subject</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$email_body</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$email_body_type</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$email_from</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$email_from_name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$attachment_path</name>
+          <default>""</default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$attachment_base64</name>
+          <default>""</default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$attachment_name</name>
+          <default>""</default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$callback_url</name>
+          <default>""</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="112" package="Ajax Class">
+        <name>isHamEmail</name>
+        <full_name>\dropItForMeClient::isHamEmail()</full_name>
+        <docblock line="112">
+          <description>isHamEmail() Report a valid email address</description>
+          <long-description></long-description>
+          <tag name="param" line="112" description="" type="" variable="$email"/>
+          <tag name="return" line="112" description="" type="array">
+            <type>array</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$email</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="124" package="Ajax Class">
+        <name>isSpamEmail</name>
+        <full_name>\dropItForMeClient::isSpamEmail()</full_name>
+        <docblock line="124">
+          <description>isSpamEmail() Report an ivalid email address</description>
+          <long-description></long-description>
+          <tag name="param" line="124" description="" type="" variable="$email"/>
+          <tag name="return" line="124" description="" type="array">
+            <type>array</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$email</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="" line="137" package="Ajax Class">
+        <name>doRequest</name>
+        <full_name>\dropItForMeClient::doRequest()</full_name>
+        <docblock line="137">
+          <description>doRequest() Client API http method</description>
+          <long-description></long-description>
+          <tag name="param" line="137" description="" type="" variable="$url"/>
+          <tag name="param" line="137" description="" type="array|null" variable="$post">
+            <type>array</type>
+            <type>null</type>
+          </tag>
+          <tag name="return" line="137" description="" type="array">
+            <type>array</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$url</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$post</name>
+          <default>NULL</default>
+          <type>array|null</type>
+        </argument>
+      </method>
+    </class>
+    <source>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</source>
+  </file>
+  <package name="Ajax Class" full_name="Ajax Class"/>
+  <package name="global" full_name="global"/>
+  <namespace name="global" full_name="global"/>
+  <deprecated count="0"/>
+</project>

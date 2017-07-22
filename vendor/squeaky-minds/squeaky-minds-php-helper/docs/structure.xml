@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project title="SqueakyMindsPhpHelper" version="2.8.5">
+  <partials/>
+  <file path="SqueakyMindsPhpHelper.php" generated-path="SqueakyMindsPhpHelper.html" hash="e35edfa682db804ae259bf361000071c" package="SqueakyMindsPhpHelper">
+    <docblock line="0">
+      <description>SqueakyMindsPhpHelper Helper Classes</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="SqueakyMindsPhpHelper"/>
+      <tag name="link" line="0" description="The SqueakyMindsPhpHelper GitHub project" link="https://github.com/btafoya/SqueakyMindsPhpHelper"/>
+      <tag name="link" line="0" description="OpenWebPresence, SqueakyMindsPhpHelper&#10;&#10;Copyright (c) 2017, Brian Tafoya&#10;&#10;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&#10;&#10;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&#10;&#10;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE." link="http://openwebpresence.com"/>
+      <tag name="author" line="0" description="Brian Tafoya" link="mailto:btafoya@briantafoya.com"/>
+      <tag name="copyright" line="0" description="2001 - 2017, Brian Tafoya."/>
+      <tag name="license" line="0" description="MIT" link="http://opensource.org/licenses/MIT"/>
+      <tag name="license" line="0" description="The MIT License" link="https://opensource.org/licenses/MIT"/>
+      <tag name="category" line="0" description="SqueakyMindsPhpHelper_Library"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="" line="29" package="SqueakyMindsPhpHelper">
+      <extends/>
+      <name>SqueakyMindsPhpHelper</name>
+      <full_name>\SqueakyMindsPhpHelper</full_name>
+      <docblock line="29">
+        <description>Class SqueakyMindsPhpHelper</description>
+        <long-description>This class provides helper methods I have developed or acquired over the years.</long-description>
+        <tag name="package" line="29" description="SqueakyMindsPhpHelper"/>
+      </docblock>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="43" package="SqueakyMindsPhpHelper">
+        <name>uuid</name>
+        <full_name>\SqueakyMindsPhpHelper::uuid()</full_name>
+        <docblock line="43">
+          <description>Return a 32 bit unique ID</description>
+          <long-description></long-description>
+          <tag name="method" line="43" description="Return a 32 bit unique ID" method_name="uuid"/>
+          <tag name="access" line="43" description="public"/>
+          <tag name="return" line="43" description="32 character unique ID." type="string">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="43" description="Brian Tafoya"/>
+          <tag name="copyright" line="43" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="43" description="1.0"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="63" package="SqueakyMindsPhpHelper">
+        <name>postvar</name>
+        <full_name>\SqueakyMindsPhpHelper::postvar()</full_name>
+        <docblock line="63">
+          <description>Prevent undefined post variables</description>
+          <long-description></long-description>
+          <tag name="method" line="63" description="Prevent undefined post variables" method_name="postvar"/>
+          <tag name="access" line="63" description="public"/>
+          <tag name="param" line="63" description="" type="" variable="$name"/>
+          <tag name="param" line="63" description="" type="boolean" variable="$isint">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="63" description="" type="integer|mixed|string">
+            <type>integer</type>
+            <type>mixed</type>
+            <type>string</type>
+          </tag>
+          <tag name="author" line="63" description="Brian Tafoya"/>
+          <tag name="copyright" line="63" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="63" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$isint</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="88" package="SqueakyMindsPhpHelper">
+        <name>getvar</name>
+        <full_name>\SqueakyMindsPhpHelper::getvar()</full_name>
+        <docblock line="88">
+          <description>Prevent undefined get variables</description>
+          <long-description></long-description>
+          <tag name="method" line="88" description="Prevent undefined get variables" method_name="getvar"/>
+          <tag name="access" line="88" description="public"/>
+          <tag name="param" line="88" description="" type="" variable="$name"/>
+          <tag name="param" line="88" description="" type="boolean" variable="$isint">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="88" description="" type="integer|mixed|string">
+            <type>integer</type>
+            <type>mixed</type>
+            <type>string</type>
+          </tag>
+          <tag name="author" line="88" description="Brian Tafoya"/>
+          <tag name="copyright" line="88" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="88" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$isint</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="112" package="SqueakyMindsPhpHelper">
+        <name>sessionvar</name>
+        <full_name>\SqueakyMindsPhpHelper::sessionvar()</full_name>
+        <docblock line="112">
+          <description>Prevent undefined session variables</description>
+          <long-description></long-description>
+          <tag name="method" line="112" description="Prevent undefined session variables" method_name="sessionvar"/>
+          <tag name="access" line="112" description="public"/>
+          <tag name="return" line="112" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+          <tag name="param" line="112" description="&lt;p&gt;$_SESSION variable key&lt;/p&gt;" type="string" variable="$name">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="112" description="&lt;p&gt;Response if an integer&lt;/p&gt;" type="boolean" variable="$isint">
+            <type>boolean</type>
+          </tag>
+          <tag name="author" line="112" description="Brian Tafoya"/>
+          <tag name="copyright" line="112" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="112" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$name</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$isint</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="135" package="SqueakyMindsPhpHelper">
+        <name>setsessionvar</name>
+        <full_name>\SqueakyMindsPhpHelper::setsessionvar()</full_name>
+        <docblock line="135">
+          <description>Set session variables</description>
+          <long-description></long-description>
+          <tag name="method" line="135" description="" method_name="setsessionvar"/>
+          <tag name="access" line="135" description="public"/>
+          <tag name="param" line="135" description="&lt;p&gt;$_SESSION variable key&lt;/p&gt;" type="string" variable="$name">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="135" description="&lt;p&gt;$_SESSION variable value&lt;/p&gt;" type="boolean" variable="$value">
+            <type>boolean</type>
+          </tag>
+          <tag name="author" line="135" description="Brian Tafoya"/>
+          <tag name="copyright" line="135" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="135" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$name</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$value</name>
+          <default></default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="155" package="SqueakyMindsPhpHelper">
+        <name>cookievar</name>
+        <full_name>\SqueakyMindsPhpHelper::cookievar()</full_name>
+        <docblock line="155">
+          <description>Prevent undefined cookie variables</description>
+          <long-description></long-description>
+          <tag name="method" line="155" description="Prevent undefined cookie variables" method_name="cookievar"/>
+          <tag name="access" line="155" description="public"/>
+          <tag name="param" line="155" description="" type="" variable="$name"/>
+          <tag name="param" line="155" description="" type="boolean" variable="$isint">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="155" description="" type="array|integer|string">
+            <type>array</type>
+            <type>integer</type>
+            <type>string</type>
+          </tag>
+          <tag name="author" line="155" description="Brian Tafoya"/>
+          <tag name="copyright" line="155" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="155" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$isint</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="180" package="SqueakyMindsPhpHelper">
+        <name>servervar</name>
+        <full_name>\SqueakyMindsPhpHelper::servervar()</full_name>
+        <docblock line="180">
+          <description>Prevent undefined server variables</description>
+          <long-description></long-description>
+          <tag name="method" line="180" description="Prevent undefined servervar variables" method_name="servervar"/>
+          <tag name="access" line="180" description="public"/>
+          <tag name="param" line="180" description="" type="" variable="$name"/>
+          <tag name="param" line="180" description="" type="boolean" variable="$isint">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="180" description="" type="array|integer|string">
+            <type>array</type>
+            <type>integer</type>
+            <type>string</type>
+          </tag>
+          <tag name="author" line="180" description="Brian Tafoya"/>
+          <tag name="copyright" line="180" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="180" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$isint</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="204" package="SqueakyMindsPhpHelper">
+        <name>getvar_default</name>
+        <full_name>\SqueakyMindsPhpHelper::getvar_default()</full_name>
+        <docblock line="204">
+          <description>Return getvar with a default when blank.</description>
+          <long-description></long-description>
+          <tag name="method" line="204" description="Return getvar with a default is blank." method_name="getvar_default"/>
+          <tag name="access" line="204" description="public"/>
+          <tag name="return" line="204" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+          <tag name="param" line="204" description="&lt;p&gt;$_GET variable key name.&lt;/p&gt;" type="string" variable="$field_name">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="204" description="&lt;p&gt;The default value returned in the event the $_GET variable is empty or does not exist.&lt;/p&gt;" type="mixed" variable="$default_val">
+            <type>mixed</type>
+          </tag>
+          <tag name="author" line="204" description="Brian Tafoya"/>
+          <tag name="copyright" line="204" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="204" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$field_name</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$default_val</name>
+          <default>""</default>
+          <type>mixed</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="223" package="SqueakyMindsPhpHelper">
+        <name>postvar_default</name>
+        <full_name>\SqueakyMindsPhpHelper::postvar_default()</full_name>
+        <docblock line="223">
+          <description>Return postvar with a default when blank.</description>
+          <long-description></long-description>
+          <tag name="method" line="223" description="Return postvar with a default is blank." method_name="postvar_default"/>
+          <tag name="access" line="223" description="public"/>
+          <tag name="return" line="223" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+          <tag name="param" line="223" description="&lt;p&gt;$_POST variable key name.&lt;/p&gt;" type="string" variable="$field_name">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="223" description="&lt;p&gt;The default value returned in the event the $_POST variable is empty or does not exist.&lt;/p&gt;" type="mixed" variable="$default_val">
+            <type>mixed</type>
+          </tag>
+          <tag name="author" line="223" description="Brian Tafoya"/>
+          <tag name="copyright" line="223" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="223" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$field_name</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$default_val</name>
+          <default>""</default>
+          <type>mixed</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="242" package="SqueakyMindsPhpHelper">
+        <name>left</name>
+        <full_name>\SqueakyMindsPhpHelper::left()</full_name>
+        <docblock line="242">
+          <description>Return characters from the left</description>
+          <long-description></long-description>
+          <tag name="method" line="242" description="Return characters from the left." method_name="left"/>
+          <tag name="access" line="242" description="public"/>
+          <tag name="return" line="242" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="242" description="&lt;p&gt;String to truncate.&lt;/p&gt;" type="string" variable="$str">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="242" description="&lt;p&gt;Number of characters to the left of the string.&lt;/p&gt;" type="integer" variable="$howManyCharsFromLeft">
+            <type>integer</type>
+          </tag>
+          <tag name="author" line="242" description="Brian Tafoya"/>
+          <tag name="copyright" line="242" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="242" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$str</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$howManyCharsFromLeft</name>
+          <default></default>
+          <type>integer</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="261" package="SqueakyMindsPhpHelper">
+        <name>right</name>
+        <full_name>\SqueakyMindsPhpHelper::right()</full_name>
+        <docblock line="261">
+          <description>Return characters from the right</description>
+          <long-description></long-description>
+          <tag name="method" line="261" description="Return characters from the right." method_name="right"/>
+          <tag name="access" line="261" description="public"/>
+          <tag name="return" line="261" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="261" description="&lt;p&gt;String to truncate.&lt;/p&gt;" type="string" variable="$str">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="261" description="&lt;p&gt;Number of characters to the right of the string.&lt;/p&gt;" type="integer" variable="$howManyCharsFromRight">
+            <type>integer</type>
+          </tag>
+          <tag name="author" line="261" description="Brian Tafoya"/>
+          <tag name="copyright" line="261" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="261" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$str</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$howManyCharsFromRight</name>
+          <default></default>
+          <type>integer</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="283" package="SqueakyMindsPhpHelper">
+        <name>mid</name>
+        <full_name>\SqueakyMindsPhpHelper::mid()</full_name>
+        <docblock line="283">
+          <description>Return x many characters from the starting point</description>
+          <long-description></long-description>
+          <tag name="method" line="283" description="Return x many characters from the starting point" method_name="mid"/>
+          <tag name="access" line="283" description="public"/>
+          <tag name="return" line="283" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="283" description="&lt;p&gt;String to truncate.&lt;/p&gt;" type="string" variable="$str">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="283" description="&lt;p&gt;Where to start from the left of the string.&lt;/p&gt;" type="integer" variable="$start">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="283" description="&lt;p&gt;Number of characters to return.&lt;/p&gt;" type="integer" variable="$howManyChars">
+            <type>integer</type>
+          </tag>
+          <tag name="author" line="283" description="Brian Tafoya"/>
+          <tag name="copyright" line="283" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="283" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$str</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$start</name>
+          <default></default>
+          <type>integer</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$howManyChars</name>
+          <default>0</default>
+          <type>integer</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="307" package="SqueakyMindsPhpHelper">
+        <name>dump_simple_array</name>
+        <full_name>\SqueakyMindsPhpHelper::dump_simple_array()</full_name>
+        <docblock line="307">
+          <description>HTML Dump of string/array/etc.</description>
+          <long-description></long-description>
+          <tag name="method" line="307" description="HTML Dump of string/array/etc." method_name="dump_simple_array"/>
+          <tag name="access" line="307" description="public"/>
+          <tag name="return" line="307" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="307" description="&lt;p&gt;Data to dump.&lt;/p&gt;" type="mixed" variable="$array">
+            <type>mixed</type>
+          </tag>
+          <tag name="param" line="307" description="&lt;p&gt;Table title.&lt;/p&gt;" type="string" variable="$title">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="307" description="Brian Tafoya"/>
+          <tag name="copyright" line="307" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="307" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$array</name>
+          <default></default>
+          <type>mixed</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$title</name>
+          <default>""</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="343" package="SqueakyMindsPhpHelper">
+        <name>truncate</name>
+        <full_name>\SqueakyMindsPhpHelper::truncate()</full_name>
+        <docblock line="343">
+          <description>Return truncated number.</description>
+          <long-description></long-description>
+          <tag name="method" line="343" description="Return truncated number." method_name="truncate"/>
+          <tag name="access" line="343" description="public"/>
+          <tag name="return" line="343" description="" type="integer">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="343" description="&lt;p&gt;Number to truncate.&lt;/p&gt;" type="integer" variable="$num">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="343" description="&lt;p&gt;Number of digits to truncate.&lt;/p&gt;" type="integer" variable="$digits">
+            <type>integer</type>
+          </tag>
+          <tag name="author" line="343" description="Brian Tafoya"/>
+          <tag name="copyright" line="343" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="343" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$num</name>
+          <default></default>
+          <type>integer</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$digits</name>
+          <default>0</default>
+          <type>integer</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="362" package="SqueakyMindsPhpHelper">
+        <name>multi_stripslashes</name>
+        <full_name>\SqueakyMindsPhpHelper::multi_stripslashes()</full_name>
+        <docblock line="362">
+          <description>Return array stripslasshes recursive.</description>
+          <long-description></long-description>
+          <tag name="method" line="362" description="Return array stripslasshes recursive." method_name="multi_stripslashes"/>
+          <tag name="access" line="362" description="public"/>
+          <tag name="param" line="362" description="&lt;p&gt;Input array.&lt;/p&gt;" type="callable" variable="$arr">
+            <type>callable</type>
+          </tag>
+          <tag name="author" line="362" description="Brian Tafoya"/>
+          <tag name="copyright" line="362" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="362" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="true">
+          <name>$arr</name>
+          <default></default>
+          <type>callable</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="386" package="SqueakyMindsPhpHelper">
+        <name>numberToRoman</name>
+        <full_name>\SqueakyMindsPhpHelper::numberToRoman()</full_name>
+        <docblock line="386">
+          <description>Return roman numeral.</description>
+          <long-description></long-description>
+          <tag name="method" line="386" description="Return roman numeral." method_name="numberToRoman"/>
+          <tag name="access" line="386" description="public"/>
+          <tag name="return" line="386" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="386" description="&lt;p&gt;Number to transform.&lt;/p&gt;" type="integer" variable="$num">
+            <type>integer</type>
+          </tag>
+          <tag name="author" line="386" description="Brian Tafoya"/>
+          <tag name="copyright" line="386" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="386" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$num</name>
+          <default></default>
+          <type>integer</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="423" package="SqueakyMindsPhpHelper">
+        <name>duration</name>
+        <full_name>\SqueakyMindsPhpHelper::duration()</full_name>
+        <docblock line="423">
+          <description>Return duration from seconds.</description>
+          <long-description></long-description>
+          <tag name="method" line="423" description="Return duration from seconds." method_name="duration"/>
+          <tag name="access" line="423" description="public"/>
+          <tag name="return" line="423" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="423" description="&lt;p&gt;Seconds value.&lt;/p&gt;" type="integer" variable="$secs">
+            <type>integer</type>
+          </tag>
+          <tag name="author" line="423" description="Brian Tafoya"/>
+          <tag name="copyright" line="423" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="423" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$secs</name>
+          <default></default>
+          <type>integer</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="453" package="SqueakyMindsPhpHelper">
+        <name>object2array</name>
+        <full_name>\SqueakyMindsPhpHelper::object2array()</full_name>
+        <docblock line="453">
+          <description>Return an array from an object.</description>
+          <long-description></long-description>
+          <tag name="method" line="453" description="Return an array from an object." method_name="object2array"/>
+          <tag name="access" line="453" description="public"/>
+          <tag name="return" line="453" description="" type="array">
+            <type>array</type>
+          </tag>
+          <tag name="param" line="453" description="&lt;p&gt;Object to transform.&lt;/p&gt;" type="object" variable="$object">
+            <type>object</type>
+          </tag>
+          <tag name="author" line="453" description="Brian Tafoya"/>
+          <tag name="copyright" line="453" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="453" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$object</name>
+          <default></default>
+          <type>object</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="471" package="SqueakyMindsPhpHelper">
+        <name>xml2array</name>
+        <full_name>\SqueakyMindsPhpHelper::xml2array()</full_name>
+        <docblock line="471">
+          <description>Return an array from xml string.</description>
+          <long-description></long-description>
+          <tag name="method" line="471" description="Return an array from xml string." method_name="xml2array"/>
+          <tag name="access" line="471" description="public"/>
+          <tag name="return" line="471" description="" type="array">
+            <type>array</type>
+          </tag>
+          <tag name="param" line="471" description="&lt;p&gt;XML to process.&lt;/p&gt;" type="string" variable="$xmlstring">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="471" description="Brian Tafoya"/>
+          <tag name="copyright" line="471" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="471" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$xmlstring</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="489" package="SqueakyMindsPhpHelper">
+        <name>send_no_cache_header</name>
+        <full_name>\SqueakyMindsPhpHelper::send_no_cache_header()</full_name>
+        <docblock line="489">
+          <description>Send header stuff that tells the browser not to cache this page.</description>
+          <long-description></long-description>
+          <tag name="method" line="489" description="" method_name="send_no_cache_header"/>
+          <tag name="access" line="489" description="public"/>
+          <tag name="author" line="489" description="Brian Tafoya"/>
+          <tag name="copyright" line="489" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="489" description="1.0"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="512" package="SqueakyMindsPhpHelper">
+        <name>json_indent</name>
+        <full_name>\SqueakyMindsPhpHelper::json_indent()</full_name>
+        <docblock line="512">
+          <description>Indents a flat JSON string to make it more human-readable.</description>
+          <long-description></long-description>
+          <tag name="method" line="512" description="" method_name="xml2array"/>
+          <tag name="access" line="512" description="public"/>
+          <tag name="param" line="512" description="&lt;p&gt;The original JSON string to process.&lt;/p&gt;" type="string" variable="$json">
+            <type>string</type>
+          </tag>
+          <tag name="return" line="512" description="Indented version of the original JSON string." type="string">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="512" description="Brian Tafoya"/>
+          <tag name="copyright" line="512" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="512" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$json</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="579" package="SqueakyMindsPhpHelper">
+        <name>array_last</name>
+        <full_name>\SqueakyMindsPhpHelper::array_last()</full_name>
+        <docblock line="579">
+          <description>Return the last array member.</description>
+          <long-description></long-description>
+          <tag name="method" line="579" description="Return the last array member." method_name="array_last"/>
+          <tag name="access" line="579" description="public"/>
+          <tag name="param" line="579" description="&lt;p&gt;Array data.&lt;/p&gt;" type="array" variable="$array_val">
+            <type>array</type>
+          </tag>
+          <tag name="return" line="579" description="" type="array">
+            <type>array</type>
+          </tag>
+          <tag name="throws" line="579" description="Not array data." type="\InvalidArgumentException">
+            <type>\InvalidArgumentException</type>
+          </tag>
+          <tag name="author" line="579" description="Brian Tafoya"/>
+          <tag name="copyright" line="579" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="579" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$array_val</name>
+          <default></default>
+          <type>array</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="605" package="SqueakyMindsPhpHelper">
+        <name>array_first</name>
+        <full_name>\SqueakyMindsPhpHelper::array_first()</full_name>
+        <docblock line="605">
+          <description>Return the first array member.</description>
+          <long-description></long-description>
+          <tag name="method" line="605" description="" method_name="array_first"/>
+          <tag name="access" line="605" description="public"/>
+          <tag name="param" line="605" description="" type="array" variable="$array_val">
+            <type>array</type>
+          </tag>
+          <tag name="return" line="605" description="" type="array">
+            <type>array</type>
+          </tag>
+          <tag name="throws" line="605" description="Not array data." type="\InvalidArgumentException">
+            <type>\InvalidArgumentException</type>
+          </tag>
+          <tag name="author" line="605" description="Brian Tafoya"/>
+          <tag name="copyright" line="605" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="605" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$array_val</name>
+          <default></default>
+          <type>array</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="627" package="SqueakyMindsPhpHelper">
+        <name>requested_url</name>
+        <full_name>\SqueakyMindsPhpHelper::requested_url()</full_name>
+        <docblock line="627">
+          <description>Return the requested url.</description>
+          <long-description></long-description>
+          <tag name="method" line="627" description="" method_name="requested_url"/>
+          <tag name="access" line="627" description="public"/>
+          <tag name="return" line="627" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="627" description="Brian Tafoya"/>
+          <tag name="copyright" line="627" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="627" description="1.0"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="646" package="SqueakyMindsPhpHelper">
+        <name>linkify</name>
+        <full_name>\SqueakyMindsPhpHelper::linkify()</full_name>
+        <docblock line="646">
+          <description>Turn all URLs in clickable links.</description>
+          <long-description></long-description>
+          <tag name="method" line="646" description=")" method_name="linkify"/>
+          <tag name="access" line="646" description="public"/>
+          <tag name="param" line="646" description="" type="" variable="$value"/>
+          <tag name="return" line="646" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="646" description="Brian Tafoya"/>
+          <tag name="copyright" line="646" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="646" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$value</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="668" package="SqueakyMindsPhpHelper">
+        <name>stringTruncate</name>
+        <full_name>\SqueakyMindsPhpHelper::stringTruncate()</full_name>
+        <docblock line="668">
+          <description>Truncate a string.</description>
+          <long-description></long-description>
+          <tag name="method" line="668" description="Truncate a string." method_name="stringTruncate"/>
+          <tag name="param" line="668" description="&lt;p&gt;The string to truncate.&lt;/p&gt;" type="string" variable="$string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="668" description="&lt;p&gt;String length max.&lt;/p&gt;" type="integer" variable="$limit">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="668" description="&lt;p&gt;(optional) Break point, defauls to period.&lt;/p&gt;" type="string" variable="$break">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="668" description="&lt;p&gt;(optional) String to append to the truncated string.&lt;/p&gt;" type="string" variable="$pad">
+            <type>string</type>
+          </tag>
+          <tag name="return" line="668" description="Truncated string." type="string">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="668" description="Brian Tafoya"/>
+          <tag name="copyright" line="668" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="668" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$string</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$limit</name>
+          <default></default>
+          <type>integer</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$break</name>
+          <default>"."</default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$pad</name>
+          <default>"..."</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="697" package="SqueakyMindsPhpHelper">
+        <name>br2nl</name>
+        <full_name>\SqueakyMindsPhpHelper::br2nl()</full_name>
+        <docblock line="697">
+          <description>Convert BR tags to PHP_EOL.</description>
+          <long-description></long-description>
+          <tag name="method" line="697" description="Convert BR tags to PHP_EOL." method_name="br2nl"/>
+          <tag name="param" line="697" description="&lt;p&gt;The string to convert&lt;/p&gt;" type="string" variable="$string">
+            <type>string</type>
+          </tag>
+          <tag name="return" line="697" description="The converted string" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="697" description="Brian Tafoya"/>
+          <tag name="copyright" line="697" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="697" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$string</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="714" package="SqueakyMindsPhpHelper">
+        <name>escape</name>
+        <full_name>\SqueakyMindsPhpHelper::escape()</full_name>
+        <docblock line="714">
+          <description>Escape a string just like mysql_escape_string which is now depreciated.</description>
+          <long-description></long-description>
+          <tag name="method" line="714" description="Escape a string just like mysql_escape_string which is now depreciated." method_name="escape"/>
+          <tag name="param" line="714" description="" type="" variable="$inp"/>
+          <tag name="return" line="714" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="714" description="Brian Tafoya"/>
+          <tag name="copyright" line="714" description="Copyright 2001 - 2017, Brian Tafoya."/>
+          <tag name="version" line="714" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inp</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <source>eJztXHt32sgV/z+fYpZ1F0hkY2e725YYZwkmMS02LuDNpus9HCENoFhIiiSM3U2+e++9M6MXEo9mm7Kn9ckJYubOff7mzlOcvvRm3pPa06dP2FM2+LDg+t3jpeWYwfXMu+C2x30mP1q2HgQ8ADok/cHTjTt9yhnLb0U0tuXcMfqbhaEX1Gu1qRXOFuMjw53XxqE+cR/1Wr7Q4YwXqPPGCi8WY+b57ntuhCRHX4Qz10c5r3xLd9iQOLNTKeKHMZaKZxR9Ro0M13v0reksZM+Pj0/YIXyc/ElLcTiSVhjcCdDSy84wU6Lscj0ocBe+wY9cf1qTBEENWpAp+NkVhUK4HvKp6z8WeG/Utca+7j/meFEKW/Kx5/OAOyARTGI9KHvLx9eyTCuMCrJsRaZXjGqO3ZLsmvtzKwgs12FWwGbc5+NHNvXBldzU2MTnnLkTZsx0fwoCQ5fpziMDKQE0cMH3lmM5U6Yz9DRShjNgE7iTcKn7HIhNBohyDQt8YTLTNRZzDlEKUd7EsnnAKiG4rjSQLUpVEmJy3WaWw7BOVbEl4MpdhAzMD33LQB4aEBn2wkQdVLVtzS0pAZuTDwJkugjAAtRTY3PXtCb4ycksbzG2rWCmMdNC1uNFCIUBFlI0NbSjBuALuG0jBwv0Jltj7YgGpXjo0FC6iOQuZxC7lCXgosnCd0AkpzamCy4jiQh3LEHyiWvb7hJNM1zHtNCioC7DhnjTx+49ZzHEHTcEfYUeGAUvDq2sCmY6GDDm0msgHHysJ2zyUYcghOhbEADP9Ulo1tYjpcRFmw16r4dvm/026wzYdb/3Y+e8fc5KzQF8L2nsbWd40bsZMqDoN6+G71jvNWtevWN/61yda6z903W/PRiwXp91Lq+7nTaUda5a3ZvzztUb9graXfWgS3WgYwHTYY8ESlad9gCZXbb7rQv42nzV6XaG7zT2ujO8Qp6vgWmTXTf7w07rptvss+ub/nVv0Abx58D2qnP1ug9S2pftq+ERSIUy1v4RvrDBRbPbJVHNG9C+T/q1etfv+p03F0N20euet6HwVRs0a77qtoUoMKrVbXYuNXbevGy+aVOrHnDpE5nU7u1Fm4pAXhP+tYad3hWa0epdDfvwVQMr+8Oo6dvOoK2xZr8zQIe87veAPboTWvSICbS7agsu6Op0RIAEv98M2rEu5+1mF3gNsHGSGENae/JEDRI0DqxNL0NEmEFkkKXvLZNj9qDkPefQEc2AddhMB4Ca/J7bkM5MhJdufFhYPj7fAyWC6pHrfiDEG8VS2a+gHKZHUhD/nrI+D6ETQe759jkbQ5dbOBY0ZZ1zSaDofhAKMeza0JkWC8usVDe2hhHHMDjoA3+UH4yowhdNJT9oj+lRN0JQM+JylFUif/yKquNu3NpqzJLNwIvUwRk7OTqWpTX6DDAHGlJ1SDcOJUxl/a+CFv6kMRVhTXVufldBI4AKBgEkfcYuLcN3h9acVyA7n1SrL6jxp9WIwMh0D+kdvGDyieVAmD03CNm9DrqPbZxXrAsM0gIpiNyST2GIonoP4jKXhh44+pxna8aua7MDK7CcMNtWOgZqPs6tB25+FGruaVyV88hKTZrEGmyi2wFPxtuaVL7icy98rByMICEOf6YWv1TZN9/AuDTSfV/PViWbJyFDtNUU7YuI8FP0dAADtufiXKrBKjAg8TAr+iXOBaD7jMiCZB0m9O6w3R8NmledYecf7dFgiHm7yuqsVAIkruC4giHlulOVLngJMp2wGitRj7Aele2C6CnfGtBAWoTnPC7/h3MMZ+m6ndD8pl0E5kTNJizHpFtDOSk3g+S4av+ADEsXismWYJbkRYAu4rZ5GCU0FiBdyhZgh4/RAOZ2ONtRYtgdf8zrBOA3hZq+8pc1gbkxdgA+xWnMXuI+4eWdsC/9UoD/TO2mPpAm37ofZHV4ybJlXwjrA0iuO6M7TAJ814z8eTi9122YM+Y0ooq9RWqYA1bSOImvFQg0JNEOmcpw3TuLbxtKQV2Upwp4fZGxl/rXRxyB93rsjR24Uwpq9Xp/67QLMlC6clMCSlFvnX8yCmD6SRX9F0daH1e7W6cipC4eZ2Xt/yG8BsKxD3ccRfs/tvuFg2iycvMYmqDeYQhNKSBG0ETRF4Kw3BsRk3DaWGU6AwTqCztkyxl32NjWnbuVPQ4JZNFuJBvEey35/Kwgze03mTEeTCxumyM1HMM8PDUUM6w4yrYlvkAuNYM5vE0brUpTMU4LJcTeKW5giR6KTxk5YBgBC/e9TJcHuAvL+IMVhPu6OZQJXMKJWtorDYRh/iaSzZ1KwO1Jva7WcDGXKkK6sBIwmhSyEZ5yy2N3fMqGqwAt4PglEIp7Hl8EomlBvz+MZoP3mSCN9s1yUZpXuytMo83hgE18eRJk88nKCJueBSBFDMwiHtsjMn+4zkASPtnK30BU4qGUD0HQw1VU4ogDfwczd3mpO48t0DZ4DXp2QUV2tZiPYfYjTxGlFfKIC21Qp0tCiX2FHcUDHaTlm7lmS52O1HzZ+FiTI3Muk38HS2TzejARyXo0EcmXgNPn4KlP4V0HKAGA3wWiRFAKIEWWptbRQNeFga3BZPrCgryZYB7oVOPDAkERxUYAPrA5XgDIQxCY6YfiHCdn/ZAG5Dx5BLcrz/8EOncAJemk2r3FGxPYTJSmknM+DNeCvBDbwrB9hTKGM0Ia+CEDaADtcQbLQHR4GC+LYBG2mhVZo5FpuOqvhsimyT4BxgleJCW59NqqryTa5qXq4h5yMbzssvPF3MPoCc41Wg3WeGgUTUVNoB8F1tyzuVxoVrdj9JmdQM0jiS8710Od7qGA0BWcqv4SWiFMGIc0baTnfUXjqk+FmZqyITsxxBUxTp4brHwakn0Gt21PN/FeUeM7+hZ4uoHfTth4ari26ze+/o7+QItHmzdKVFj/+pj+XpTOyil0K4CSAiubB0qBI9LAPzsNTZiIL33di6Wdt9vfts8ZfANVnMbzs1PrrMyOlE1H0LJmnZ3WQhP/85Py402Hietz3ZhJhzA9YAe41Gic5ezcFikm7R3rxt3UdxeOeShMZ19z+gPbT1FFRThxnfAwsP7J6+zk2Ht4wahgyTH+dTZ2bRO9hZagKmQHNhemJKxY1WedLhP6Q10M1+RZPhCReGdHWJ41PSNOrAdyoCVap9l/YtwO+HqGyV3w1UCtGFsjMzb6pDDyGSpEORJmU6Ik2zQNUIMkwJQGrKL0pujiwb6o5eZ8ljOpSIykB8AOS+UAumkgPzCtqRUmx1tZkNNw3/Jb5FS0WYtMWRlkZ9YEc5rnLisnxxFd7u7hxHZdn/iBRqIldIiaetwEB5FNcKDwArzDNeMB8DYWYNj9qhslNuaAM2sUNYI2iVtZ2zDcesPb0G2b0jqmPdZxvEUoJOxrhHNc8w3qnoxvMpWLRC7SeDaPpVNdbpoTuS1HKPL++eDul63Tm6QXq5QEn/ssh0yGKoYWTKjBowBM7ut2EZREKhm6fSSOUZTb9jMnTlGuSSYa3QkgHPN9hVPaPah9EgW1GrvU72CZssCVzEwP2ZIz17Ef8cI0LWDklQl1H1itaxKn0xh7YOtD4IEYKoSUOOiJKVZy1AHZ59yw6ao4gxx0t/Bk31eKLC3bFoqQo9F2oZQwqh5LkM0bgkGlfFnGDnECszGNlVvi21/oyzk9fycqxJc/ii+qCTz/1JIt4LkrG2BxV9LjsySHx454/gs8/iiIsVA8/hEfBWky+UYdWNkNfVggtnA6Ru4K8Vq3k3QCBmSuh8ZMnQUql8jCdFR8zOtq1pJlPwhdhYLMorxozgG9ZeRzj+thRaivRXLz+NNSS8dL7igjWi8LQ9IyJKDE5x9WJkyfUjDCTfB+sr+zYOYubBNvu48Xlg2LOTWPCIvWgVtOfsyFL19gQO0Djrfzg+IFniCOs9La5r9FdgKWARsIvqKT7mtiipxDOqdmL6B3EPflJXUfWo0LWsDwn7+HTguff6pC/zKJIF31Bwaalmepmm+/p4rn2CfnqZrvsfx77MtBohyLkjAGiISRWqkKWC3CpFYeML9Y7eVk0Ppx+uCenbFj9vGj5Ja7JFFyYBaYWT0o/X4Wl2xoRVU87BZ1gveu5VTKrKwRr81TPzVZIzTr+FIQvsNS1B1E7XO11bEdk82dgloX9AnBix3Iz178js2+j9spZ0n9884ZxJ2D94HrjEyO68RKFEws4w6VKQYaQWfHwD7M7aLtdBlZoFgf1lUWnxdXtS8FfOXjT5ddegPLd5HrvkY1dlSseir1oaNgXKVdBnge2a5ujgRdsklicoVhhiapaANhzlIvCRJqtgkNA+6YbMZ1E6YZQbiYTMTAHeKWGI3cY99dBlCJB8fgfAOSHZfvn+nTwsVfAGxHjjsi8pHgv8O1yz0JZb4ViVjKolL7wbNgclFnwwXXGCjyVxAPGh2z4+M6/WNvLoelRExVy64ehIeX+Lqixc06K0FWn85NXP2XzjVmskv2jl3UrXpQqkJVqYhNCzU8bLlO6Lt2HYJ1GOBMT8Mn0l6DRSdI8jmMUxbyhwL94RBC2DjegiEelB9CiXHXgCHU87n6UtLklatVFte+Pp3r9UiFUjEKO47JnRDGTzaxAX1/HfSuVP8HzM1x+WLBjBXnrrMFTALBDt3EJf8W2WrX3QSVd6jT4bTTBYBZDsw4M2oV5aH062PCNBjSFfrk6iqP6389pUXIpzxikeoijyDqC1Z7USmABHepEiUrh5rEKkEgRAxCXAiUGUtyc/iyi+ugBivdOqWkGAAxntVkxbuLsDf5+8INaUUk5k/JeVrlwCL1QCo7bSjl8OuzZynzCJw19sbXx2Lxwh/CxDuA8tJNKmRKB0PopU6cRAY+sLT00lAKaOJLz7j8DiwTF8gfUHd1hvpyZfYoeIPRpTJeXYz98BWU3d6Wc6eTaad8lfyeUUgq1ZHveCfsFQMBDhQuvWLBbY5veWt5zYE/bb+B05bMxvjh+8oizLEzsSLtObnnhAeFsaGfyjRZjr7/UqZLm0kjNmzrKxTlzKQBrckjSvVHQHkvgfKenRIhPgqQZMmz8iJAr3JO7/5/WoWDaZKHYs+rSw+CfS7gEqKx3SrIOiLd2DDOJDgvdTm6c0hC9Ir/mtB+RljT8dQy8fw18/3n3zC+qR6TJ6gglhDtZ8/ygrcvSEnmPxnzHModz3sUQsR8fs7XHfoQzQjJE8c+6xhsPfSKxuLwkq74NakApit60SibXEGwH8IZzlZhzKVZTtOf0s9RtB8M7tGwduUqDXN57sm0M+Hg2BeZO+3xnn9MsXK6G85xvzSmyGSHpAtHnutVsEFidM49ByAXUxoo8nKlJGsgP2DSIFfDPPHkOMl7C0ROLH8nSBL97hO+LOr+55Am/PbloEaHjvsGNp9/WPAA518Lv/AgKiIaAdFmpG3Y1N0TEGSMKr7oWsLfLsIVqrxbHb+FU74YDq8HZbxYXQpK4i0WXK7WazWkzyUfXfQGw3I1r7rf/vtNezAc3fQ75eJF45AQZdvspt8NcFZugFl3dBCMP7dUuGWPldZEXe3QcEB1Qxcv3tDNIS1KCKH8raB4o7q6c3I5yH3Hcx9hEV+FTvkntXUlq8Af2CdvL63AvO2KMvVZydmVUu0Oz+SaOX2tJi+28g4EzDjXb0uK2mF0ZULttxUyyLsnip/DaEm31S1R+hWq6F4prG2n4Qx3VArFjH2u3zFWcSltYZJ9RSV081WTL3gE8hemLNcsZOTpJlYkGMWXW3XP4+JnqjClxXdxCnyY3qkYbiLfk3yVH3JNxkRTroa+jAMB+Qufj45KmWNxaT69DeS4uDpypvQzAtIh+EtnYDCtxGa6IwUkh8bEvVRCHW4rEFHB64OSsOiQEwRK5cXvwoWwPguXnCvR8re/orV4vA3xMqkVbcixr2ChUxHsCGNiFwaWKAmPUa3yXHVlVMc1VILBKcvae8hOchdo0oHxRoiSeKyEEkdM/hif7U+xUg7MyRst1wE8hexVn4X6lLrT9cX1qN3rFiWQsf/csWOLNjPYLoEYgs+GHoerfUEY9bo97XQZNxXOEQC4U7wvYOsGr5Rrt6djv3IbPK2+vK29vD2rWWVN+VNTniseBdqBoXtxCmfvFwFuMtxxNn8MPtgjTvXy7IQtZ5Yxwz7kwJzR5KCJ+FnCosiL1hVYiHvV31iUwgjy/j2M/dlop1yT+y411YgXqNXRFRYVvTatbuKLyyQEDnn0f3sLkCjd4kEC7vPi/z7+X4b/yiWqezjR8XcjowbUBD6PxYcjPnyivaV2t7clUfiPclWjKFTX7ZJEF0SAUM5ePj359C/nXV9K</source>
+  </file>
+  <file path="SqueakyMindsPhpHelper_lists.php" generated-path="SqueakyMindsPhpHelper_lists.html" hash="af569a64d401cce64b7ca082ebb03d2b" package="SqueakyMindsPhpHelper_lists">
+    <docblock line="0">
+      <description>SqueakyMindsPhpHelper Helper Classes</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="SqueakyMindsPhpHelper_lists"/>
+      <tag name="link" line="0" description="The SqueakyMindsPhpHelper GitHub project" link="https://github.com/btafoya/SqueakyMindsPhpHelper_lists"/>
+      <tag name="link" line="0" description="OpenWebPresence, SqueakyMindsPhpHelper&#10;&#10;Copyright (c) 2017, Brian Tafoya&#10;&#10;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&#10;&#10;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&#10;&#10;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&#10;&#10;&#10;Original core methods replicated from Fusebox Software, 2003.&#10;&#10;Fusebox Software License&#10;Version 1.0&#10;&#10;Copyright (c) 2003 The Fusebox Corporation. All rights reserved.&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;&#10;2. Redistributions in binary form or otherwise encrypted form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;&#10;3. The end-user documentation included with the redistribution, if any, must include the following acknowledgment:&#10;&#10;&quot;This product includes software developed by the Fusebox Corporation (http://www.fusebox.org/).&quot;&#10;&#10;Alternately, this acknowledgment may appear in the software itself, if and wherever such third-party acknowledgments normally appear.&#10;&#10;4. The names &quot;Fusebox&quot; and &quot;Fusebox Corporation&quot; must not be used to endorse or promote products derived from this software without prior written (non-electronic) permission. For written permission, please contact fusebox@fusebox.org.&#10;&#10;5. Products derived from this software may not be called &quot;Fusebox&quot;, nor may &quot;Fusebox&quot; appear in their name, without prior written (non-electronic) permission of the Fusebox Corporation. For written permission, please contact fusebox@fusebox.org.&#10;&#10;If one or more of the above conditions are violated, then this license is immediately revoked and can be re-instated only upon prior written authorization of the Fusebox Corporation.&#10;&#10;THIS SOFTWARE IS PROVIDED &quot;AS IS&quot; AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FUSEBOX CORPORATION OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;-------------------------------------------------------------------------------&#10;&#10;This software consists of voluntary contributions made by many individuals on behalf of the Fusebox Corporation. For more information on Fusebox, please see &lt;http://www.fusebox.org/&gt;." link="http://openwebpresence.com"/>
+      <tag name="author" line="0" description="Brian Tafoya" link="mailto:btafoya@briantafoya.com"/>
+      <tag name="copyright" line="0" description="2001 - 2017, Brian Tafoya."/>
+      <tag name="license" line="0" description="MIT" link="http://opensource.org/licenses/MIT"/>
+      <tag name="license" line="0" description="The MIT License" link="https://opensource.org/licenses/MIT"/>
+      <tag name="category" line="0" description="SqueakyMindsPhpHelper_Library"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="" line="58" package="SqueakyMindsPhpHelper_lists">
+      <extends/>
+      <name>SqueakyMindsPhpHelper_lists</name>
+      <full_name>\SqueakyMindsPhpHelper_lists</full_name>
+      <docblock line="58">
+        <description>This class provides list management helper methods.</description>
+        <long-description></long-description>
+        <tag name="package" line="58" description="SqueakyMindsPhpHelper_lists"/>
+      </docblock>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="74" package="SqueakyMindsPhpHelper_lists">
+        <name>ArrayToList</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ArrayToList()</full_name>
+        <docblock line="74">
+          <description>ArrayToList</description>
+          <long-description></long-description>
+          <tag name="method" line="74" description="" method_name="ArrayToList"/>
+          <tag name="access" line="74" description="public"/>
+          <tag name="return" line="74" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="74" description="&lt;p&gt;Single dimension array data to convert to a list.&lt;/p&gt;" type="array" variable="$inArray">
+            <type>array</type>
+          </tag>
+          <tag name="param" line="74" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="74" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="74" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="74" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inArray</name>
+          <default></default>
+          <type>array</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="101" package="SqueakyMindsPhpHelper_lists">
+        <name>ListAppend</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListAppend()</full_name>
+        <docblock line="101">
+          <description>ListAppend</description>
+          <long-description></long-description>
+          <tag name="method" line="101" description="" method_name="ListAppend"/>
+          <tag name="access" line="101" description="public"/>
+          <tag name="return" line="101" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="101" description="&lt;p&gt;List string.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="101" description="&lt;p&gt;List item to append.&lt;/p&gt;" type="string" variable="$inValue">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="101" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="101" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="101" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="101" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inValue</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="126" package="SqueakyMindsPhpHelper_lists">
+        <name>ListChangeDelims</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListChangeDelims()</full_name>
+        <docblock line="126">
+          <description>ListChangeDelims</description>
+          <long-description></long-description>
+          <tag name="method" line="126" description="" method_name="ListChangeDelims"/>
+          <tag name="access" line="126" description="public"/>
+          <tag name="return" line="126" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="126" description="&lt;p&gt;List string.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="126" description="&lt;p&gt;New list delimiter.&lt;/p&gt;" type="string" variable="$inNewDelim">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="126" description="&lt;p&gt;(Optional) Old list delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="126" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="126" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="126" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inNewDelim</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="150" package="SqueakyMindsPhpHelper_lists">
+        <name>ListDeleteAt</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListDeleteAt()</full_name>
+        <docblock line="150">
+          <description>ListDeleteAt</description>
+          <long-description></long-description>
+          <tag name="method" line="150" description="" method_name="ListDeleteAt"/>
+          <tag name="access" line="150" description="public"/>
+          <tag name="return" line="150" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="150" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="150" description="&lt;p&gt;List item to remove.&lt;/p&gt;" type="integer" variable="$inPosition">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="150" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="150" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="150" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="150" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inPosition</name>
+          <default></default>
+          <type>integer</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="175" package="SqueakyMindsPhpHelper_lists">
+        <name>ListFind</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListFind()</full_name>
+        <docblock line="175">
+          <description>ListFind</description>
+          <long-description></long-description>
+          <tag name="method" line="175" description="" method_name="ListFind"/>
+          <tag name="access" line="175" description="public"/>
+          <tag name="return" line="175" description="" type="integer">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="175" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="175" description="&lt;p&gt;List item to find.&lt;/p&gt;" type="string" variable="$inSubstr">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="175" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="175" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="175" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="175" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inSubstr</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="206" package="SqueakyMindsPhpHelper_lists">
+        <name>ListFirst</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListFirst()</full_name>
+        <docblock line="206">
+          <description>ListFirst</description>
+          <long-description></long-description>
+          <tag name="method" line="206" description="" method_name="ListFirst"/>
+          <tag name="access" line="206" description="public"/>
+          <tag name="return" line="206" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="206" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="206" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="206" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="206" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="206" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="230" package="SqueakyMindsPhpHelper_lists">
+        <name>ListGetAt</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListGetAt()</full_name>
+        <docblock line="230">
+          <description>ListGetAt</description>
+          <long-description></long-description>
+          <tag name="method" line="230" description="" method_name="ListGetAt"/>
+          <tag name="access" line="230" description="public"/>
+          <tag name="return" line="230" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="230" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="230" description="&lt;p&gt;List position to retrieve.&lt;/p&gt;" type="integer" variable="$inPosition">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="230" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="230" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="230" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="230" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inPosition</name>
+          <default></default>
+          <type>integer</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="255" package="SqueakyMindsPhpHelper_lists">
+        <name>ListInsertAt</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListInsertAt()</full_name>
+        <docblock line="255">
+          <description>ListInsertAt</description>
+          <long-description></long-description>
+          <tag name="method" line="255" description="" method_name="ListInsertAt"/>
+          <tag name="access" line="255" description="public"/>
+          <tag name="return" line="255" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="255" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="255" description="&lt;p&gt;List position to insert at.&lt;/p&gt;" type="integer" variable="$inPosition">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="255" description="&lt;p&gt;List value to insert.&lt;/p&gt;" type="string" variable="$inValue">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="255" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="255" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="255" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="255" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inPosition</name>
+          <default></default>
+          <type>integer</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inValue</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="282" package="SqueakyMindsPhpHelper_lists">
+        <name>ListLast</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListLast()</full_name>
+        <docblock line="282">
+          <description>ListLast</description>
+          <long-description></long-description>
+          <tag name="method" line="282" description="" method_name="ListLast"/>
+          <tag name="access" line="282" description="public"/>
+          <tag name="return" line="282" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="282" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="282" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="282" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="282" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="282" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="305" package="SqueakyMindsPhpHelper_lists">
+        <name>ListLen</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListLen()</full_name>
+        <docblock line="305">
+          <description>ListLen</description>
+          <long-description></long-description>
+          <tag name="method" line="305" description="" method_name="ListLen"/>
+          <tag name="access" line="305" description="public"/>
+          <tag name="return" line="305" description="" type="integer">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="305" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="305" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="305" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="305" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="305" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="329" package="SqueakyMindsPhpHelper_lists">
+        <name>ListPrepend</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListPrepend()</full_name>
+        <docblock line="329">
+          <description>ListPrepend</description>
+          <long-description></long-description>
+          <tag name="method" line="329" description="" method_name="ListPrepend"/>
+          <tag name="access" line="329" description="public"/>
+          <tag name="return" line="329" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="329" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="329" description="&lt;p&gt;List value to prepend.&lt;/p&gt;" type="string" variable="$inValue">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="329" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="329" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="329" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="329" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inValue</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="354" package="SqueakyMindsPhpHelper_lists">
+        <name>ListQualify</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListQualify()</full_name>
+        <docblock line="354">
+          <description>ListQualify</description>
+          <long-description></long-description>
+          <tag name="method" line="354" description="" method_name="ListQualify"/>
+          <tag name="access" line="354" description="public"/>
+          <tag name="return" line="354" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="354" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="354" description="&lt;p&gt;Qualifier.&lt;/p&gt;" type="string" variable="$inQualifier">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="354" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="354" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="354" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="354" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inQualifier</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="385" package="SqueakyMindsPhpHelper_lists">
+        <name>ListRest</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListRest()</full_name>
+        <docblock line="385">
+          <description>ListRest</description>
+          <long-description></long-description>
+          <tag name="method" line="385" description="" method_name="ListRest"/>
+          <tag name="access" line="385" description="public"/>
+          <tag name="return" line="385" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="385" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="385" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="385" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="385" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="385" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="411" package="SqueakyMindsPhpHelper_lists">
+        <name>ListSetAt</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListSetAt()</full_name>
+        <docblock line="411">
+          <description>ListSetAt</description>
+          <long-description></long-description>
+          <tag name="method" line="411" description="" method_name="ListSetAt"/>
+          <tag name="access" line="411" description="public"/>
+          <tag name="return" line="411" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="411" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="411" description="&lt;p&gt;List position modify.&lt;/p&gt;" type="string" variable="$inPosition">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="411" description="&lt;p&gt;List value to set.&lt;/p&gt;" type="string" variable="$inValue">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="411" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="411" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="411" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="411" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inPosition</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inValue</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="437" package="SqueakyMindsPhpHelper_lists">
+        <name>ListSort</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListSort()</full_name>
+        <docblock line="437">
+          <description>ListSort</description>
+          <long-description></long-description>
+          <tag name="method" line="437" description="" method_name="ListSort"/>
+          <tag name="access" line="437" description="public"/>
+          <tag name="return" line="437" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="437" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="437" description="&lt;p&gt;List sort type. NUMERIC, TEXT, TEXTNOCASE&lt;/p&gt;" type="string" variable="$inSortType">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="437" description="&lt;p&gt;(Optional) List sort order.&lt;/p&gt;" type="string" variable="$inSortOrder">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="437" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="437" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="437" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="437" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inSortType</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inSortOrder</name>
+          <default>"ASC"</default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="471" package="SqueakyMindsPhpHelper_lists">
+        <name>ListToArray</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListToArray()</full_name>
+        <docblock line="471">
+          <description>ListToArray</description>
+          <long-description></long-description>
+          <tag name="method" line="471" description="" method_name="ListToArray"/>
+          <tag name="access" line="471" description="public"/>
+          <tag name="return" line="471" description="" type="array">
+            <type>array</type>
+          </tag>
+          <tag name="param" line="471" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="471" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="471" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="471" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="471" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="492" package="SqueakyMindsPhpHelper_lists">
+        <name>ListValueCount</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListValueCount()</full_name>
+        <docblock line="492">
+          <description>ListValueCount</description>
+          <long-description></long-description>
+          <tag name="method" line="492" description="" method_name="ListValueCount"/>
+          <tag name="access" line="492" description="public"/>
+          <tag name="return" line="492" description="" type="integer">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="492" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="492" description="&lt;p&gt;List item to find.&lt;/p&gt;" type="string" variable="$inValue">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="492" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="492" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="492" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="492" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inValue</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="521" package="SqueakyMindsPhpHelper_lists">
+        <name>ListValueCountNoCase</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::ListValueCountNoCase()</full_name>
+        <docblock line="521">
+          <description>ListValueCountNoCase</description>
+          <long-description></long-description>
+          <tag name="method" line="521" description="" method_name="ListValueCountNoCase"/>
+          <tag name="access" line="521" description="public"/>
+          <tag name="return" line="521" description="" type="integer">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="521" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="521" description="&lt;p&gt;List item to find.&lt;/p&gt;" type="string" variable="$inValue">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="521" description="&lt;p&gt;(Optional) List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="521" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="521" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="521" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inValue</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default>","</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="private" namespace="" line="549" package="SqueakyMindsPhpHelper_lists">
+        <name>listFuncs_PrepListAsArray</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::listFuncs_PrepListAsArray()</full_name>
+        <docblock line="549">
+          <description>listFuncs_PrepListAsArray</description>
+          <long-description></long-description>
+          <tag name="method" line="549" description="" method_name="listFuncs_PrepListAsArray"/>
+          <tag name="access" line="549" description="private"/>
+          <tag name="return" line="549" description="" type="array">
+            <type>array</type>
+          </tag>
+          <tag name="param" line="549" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="549" description="&lt;p&gt;List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="549" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="549" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="549" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="577" package="SqueakyMindsPhpHelper_lists">
+        <name>PrepListAsList</name>
+        <full_name>\SqueakyMindsPhpHelper_lists::PrepListAsList()</full_name>
+        <docblock line="577">
+          <description>PrepListAsList</description>
+          <long-description></long-description>
+          <tag name="method" line="577" description="" method_name="PrepListAsList"/>
+          <tag name="access" line="577" description="public"/>
+          <tag name="return" line="577" description="" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="577" description="&lt;p&gt;List to modify.&lt;/p&gt;" type="string" variable="$inList">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="577" description="&lt;p&gt;List delimiter.&lt;/p&gt;" type="string" variable="$inDelim">
+            <type>string</type>
+          </tag>
+          <tag name="author" line="577" description="The Fusebox Corporation."/>
+          <tag name="copyright" line="577" description="Copyright (c) 2003 The Fusebox Corporation. All rights reserved."/>
+          <tag name="version" line="577" description="1.0"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$inList</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$inDelim</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+      </method>
+    </class>
+    <source>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</source>
+  </file>
+  <package name="SqueakyMindsPhpHelper" full_name="SqueakyMindsPhpHelper"/>
+  <package name="SqueakyMindsPhpHelper_lists" full_name="SqueakyMindsPhpHelper_lists"/>
+  <package name="global" full_name="global"/>
+  <namespace name="global" full_name="global"/>
+  <deprecated count="0"/>
+</project>

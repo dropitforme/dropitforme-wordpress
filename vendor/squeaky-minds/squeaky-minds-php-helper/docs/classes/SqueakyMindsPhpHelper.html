@@ -1,0 +1,1168 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>SqueakyMindsPhpHelper » \SqueakyMindsPhpHelper</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">SqueakyMindsPhpHelper</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/SqueakyMindsPhpHelper.html"><i class="icon-folder-open"></i> SqueakyMindsPhpHelper</a></li>
+<li><a href="../packages/SqueakyMindsPhpHelper_lists.html"><i class="icon-folder-open"></i> SqueakyMindsPhpHelper_lists</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<div xmlns:php="http://php.net/xsl" class="btn-toolbar">
+<div class="btn-group visibility" data-toggle="buttons-checkbox">
+<button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button>
+</div>
+<div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+</div>
+<ul xmlns:php="http://php.net/xsl" class="side-nav nav nav-list"><li class="nav-header">
+<i title="Methods" class="icon-custom icon-method"></i> Methods
+                    <ul>
+<li class="method public "><a href="#method_array_first" title="array_first() :: Return the first array member."><span class="description">Return the first array member.</span><pre>array_first()</pre></a></li>
+<li class="method public "><a href="#method_array_last" title="array_last() :: Return the last array member."><span class="description">Return the last array member.</span><pre>array_last()</pre></a></li>
+<li class="method public "><a href="#method_br2nl" title="br2nl() :: Convert BR tags to PHP_EOL."><span class="description">Convert BR tags to PHP_EOL.</span><pre>br2nl()</pre></a></li>
+<li class="method public "><a href="#method_cookievar" title="cookievar() :: Prevent undefined cookie variables"><span class="description">Prevent undefined cookie variables</span><pre>cookievar()</pre></a></li>
+<li class="method public "><a href="#method_dump_simple_array" title="dump_simple_array() :: HTML Dump of string/array/etc."><span class="description">HTML Dump of string/array/etc.</span><pre>dump_simple_array()</pre></a></li>
+<li class="method public "><a href="#method_duration" title="duration() :: Return duration from seconds."><span class="description">Return duration from seconds.</span><pre>duration()</pre></a></li>
+<li class="method public "><a href="#method_escape" title="escape() :: Escape a string just like mysql_escape_string which is now depreciated."><span class="description">Escape a string just like mysql_escape_string which is now depreciated.</span><pre>escape()</pre></a></li>
+<li class="method public "><a href="#method_getvar" title="getvar() :: Prevent undefined get variables"><span class="description">Prevent undefined get variables</span><pre>getvar()</pre></a></li>
+<li class="method public "><a href="#method_getvar_default" title="getvar_default() :: Return getvar with a default when blank."><span class="description">Return getvar with a default when blank.</span><pre>getvar_default()</pre></a></li>
+<li class="method public "><a href="#method_json_indent" title="json_indent() :: Indents a flat JSON string to make it more human-readable."><span class="description">Indents a flat JSON string to make it more human-readable.</span><pre>json_indent()</pre></a></li>
+<li class="method public "><a href="#method_left" title="left() :: Return characters from the left"><span class="description">Return characters from the left</span><pre>left()</pre></a></li>
+<li class="method public "><a href="#method_linkify" title="linkify() :: Turn all URLs in clickable links."><span class="description">Turn all URLs in clickable links.</span><pre>linkify()</pre></a></li>
+<li class="method public "><a href="#method_mid" title="mid() :: Return x many characters from the starting point"><span class="description">Return x many characters from the starting point</span><pre>mid()</pre></a></li>
+<li class="method public "><a href="#method_multi_stripslashes" title="multi_stripslashes() :: Return array stripslasshes recursive."><span class="description">Return array stripslasshes recursive.</span><pre>multi_stripslashes()</pre></a></li>
+<li class="method public "><a href="#method_numberToRoman" title="numberToRoman() :: Return roman numeral."><span class="description">Return roman numeral.</span><pre>numberToRoman()</pre></a></li>
+<li class="method public "><a href="#method_object2array" title="object2array() :: Return an array from an object."><span class="description">Return an array from an object.</span><pre>object2array()</pre></a></li>
+<li class="method public "><a href="#method_postvar" title="postvar() :: Prevent undefined post variables"><span class="description">Prevent undefined post variables</span><pre>postvar()</pre></a></li>
+<li class="method public "><a href="#method_postvar_default" title="postvar_default() :: Return postvar with a default when blank."><span class="description">Return postvar with a default when blank.</span><pre>postvar_default()</pre></a></li>
+<li class="method public "><a href="#method_requested_url" title="requested_url() :: Return the requested url."><span class="description">Return the requested url.</span><pre>requested_url()</pre></a></li>
+<li class="method public "><a href="#method_right" title="right() :: Return characters from the right"><span class="description">Return characters from the right</span><pre>right()</pre></a></li>
+<li class="method public "><a href="#method_send_no_cache_header" title="send_no_cache_header() :: Send header stuff that tells the browser not to cache this page."><span class="description">Send header stuff that tells the browser not to cache this page.</span><pre>send_no_cache_header()</pre></a></li>
+<li class="method public "><a href="#method_servervar" title="servervar() :: Prevent undefined server variables"><span class="description">Prevent undefined server variables</span><pre>servervar()</pre></a></li>
+<li class="method public "><a href="#method_sessionvar" title="sessionvar() :: Prevent undefined session variables"><span class="description">Prevent undefined session variables</span><pre>sessionvar()</pre></a></li>
+<li class="method public "><a href="#method_setsessionvar" title="setsessionvar() :: Set session variables"><span class="description">Set session variables</span><pre>setsessionvar()</pre></a></li>
+<li class="method public "><a href="#method_stringTruncate" title="stringTruncate() :: Truncate a string."><span class="description">Truncate a string.</span><pre>stringTruncate()</pre></a></li>
+<li class="method public "><a href="#method_truncate" title="truncate() :: Return truncated number."><span class="description">Return truncated number.</span><pre>truncate()</pre></a></li>
+<li class="method public "><a href="#method_uuid" title="uuid() :: Return a 32 bit unique ID"><span class="description">Return a 32 bit unique ID</span><pre>uuid()</pre></a></li>
+<li class="method public "><a href="#method_xml2array" title="xml2array() :: Return an array from xml string."><span class="description">Return an array from xml string.</span><pre>xml2array()</pre></a></li>
+</ul>
+</li></ul>
+</div>
+<div class="span8">
+<a xmlns:php="http://php.net/xsl" id="\SqueakyMindsPhpHelper"></a><ul xmlns:php="http://php.net/xsl" class="breadcrumb">
+<li>
+<a href="../index.html"><i title="Classes" class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/SqueakyMindsPhpHelper.html">SqueakyMindsPhpHelper</a>
+</li>
+</ul>
+<div xmlns:php="http://php.net/xsl" class="element class">
+<p class="short_description">Class SqueakyMindsPhpHelper</p>
+<div class="details">
+<div class="long_description"><p>This class provides helper methods I have developed or acquired over the years.</p></div>
+<table class="table table-bordered"><tr>
+<th>package</th>
+<td><a href="../packages/SqueakyMindsPhpHelper.html">SqueakyMindsPhpHelper</a></td>
+</tr></table>
+<h3>
+<i title="Methods" class="icon-custom icon-method"></i> Methods</h3>
+<a id="method_array_first"></a><div class="element clickable method public method_array_first " data-toggle="collapse" data-target=".method_array_first .collapse" title="public">
+<h2>Return the first array member.</h2>
+<pre>array_first(array $array_val) : array</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td></td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$array_val</h4>
+<code>array</code>
+</div>
+<h3>Exceptions</h3>
+<table class="table table-bordered"><tr>
+<th><code>\InvalidArgumentException</code></th>
+<td>Not array data.</td>
+</tr></table>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_array_last"></a><div class="element clickable method public method_array_last " data-toggle="collapse" data-target=".method_array_last .collapse" title="public">
+<h2>Return the last array member.</h2>
+<pre>array_last(array $array_val) : array</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Return the last array member.</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$array_val</h4>
+<code>array</code><p>Array data.</p></div>
+<h3>Exceptions</h3>
+<table class="table table-bordered"><tr>
+<th><code>\InvalidArgumentException</code></th>
+<td>Not array data.</td>
+</tr></table>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_br2nl"></a><div class="element clickable method public method_br2nl " data-toggle="collapse" data-target=".method_br2nl .collapse" title="public">
+<h2>Convert BR tags to PHP_EOL.</h2>
+<pre>br2nl(string $string) : string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Convert BR tags to PHP_EOL.</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$string</h4>
+<code>string</code><p>The string to convert</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>string</code>The converted string</div>
+</div></div>
+</div>
+<a id="method_cookievar"></a><div class="element clickable method public method_cookievar " data-toggle="collapse" data-target=".method_cookievar .collapse" title="public">
+<h2>Prevent undefined cookie variables</h2>
+<pre>cookievar($name, boolean $isint<code> = false</code>) : array | integer | string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Prevent undefined cookie variables</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument"><h4>$name</h4></div>
+<div class="subelement argument">
+<h4>$isint</h4>
+<code>boolean</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>array</code><code>integer</code><code>string</code>
+</div>
+</div></div>
+</div>
+<a id="method_dump_simple_array"></a><div class="element clickable method public method_dump_simple_array " data-toggle="collapse" data-target=".method_dump_simple_array .collapse" title="public">
+<h2>HTML Dump of string/array/etc.</h2>
+<pre>dump_simple_array(mixed $array, string $title<code> = ""</code>) : string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>HTML Dump of string/array/etc.</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$array</h4>
+<code>mixed</code><p>Data to dump.</p></div>
+<div class="subelement argument">
+<h4>$title</h4>
+<code>string</code><p>Table title.</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_duration"></a><div class="element clickable method public method_duration " data-toggle="collapse" data-target=".method_duration .collapse" title="public">
+<h2>Return duration from seconds.</h2>
+<pre>duration(integer $secs) : string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Return duration from seconds.</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$secs</h4>
+<code>integer</code><p>Seconds value.</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_escape"></a><div class="element clickable method public method_escape " data-toggle="collapse" data-target=".method_escape .collapse" title="public">
+<h2>Escape a string just like mysql_escape_string which is now depreciated.</h2>
+<pre>escape($inp) : string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Escape a string just like mysql_escape_string which is now depreciated.</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument"><h4>$inp</h4></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_getvar"></a><div class="element clickable method public method_getvar " data-toggle="collapse" data-target=".method_getvar .collapse" title="public">
+<h2>Prevent undefined get variables</h2>
+<pre>getvar($name, boolean $isint<code> = false</code>) : integer | mixed | string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Prevent undefined get variables</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument"><h4>$name</h4></div>
+<div class="subelement argument">
+<h4>$isint</h4>
+<code>boolean</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>integer</code><code>mixed</code><code>string</code>
+</div>
+</div></div>
+</div>
+<a id="method_getvar_default"></a><div class="element clickable method public method_getvar_default " data-toggle="collapse" data-target=".method_getvar_default .collapse" title="public">
+<h2>Return getvar with a default when blank.</h2>
+<pre>getvar_default(string $field_name, mixed $default_val<code> = ""</code>) : mixed</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Return getvar with a default is blank.</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$field_name</h4>
+<code>string</code><p>$_GET variable key name.</p></div>
+<div class="subelement argument">
+<h4>$default_val</h4>
+<code>mixed</code><p>The default value returned in the event the $_GET variable is empty or does not exist.</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>mixed</code></div>
+</div></div>
+</div>
+<a id="method_json_indent"></a><div class="element clickable method public method_json_indent " data-toggle="collapse" data-target=".method_json_indent .collapse" title="public">
+<h2>Indents a flat JSON string to make it more human-readable.</h2>
+<pre>json_indent(string $json) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td></td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$json</h4>
+<code>string</code><p>The original JSON string to process.</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>string</code>Indented version of the original JSON string.</div>
+</div></div>
+</div>
+<a id="method_left"></a><div class="element clickable method public method_left " data-toggle="collapse" data-target=".method_left .collapse" title="public">
+<h2>Return characters from the left</h2>
+<pre>left(string $str, integer $howManyCharsFromLeft) : string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Return characters from the left.</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$str</h4>
+<code>string</code><p>String to truncate.</p></div>
+<div class="subelement argument">
+<h4>$howManyCharsFromLeft</h4>
+<code>integer</code><p>Number of characters to the left of the string.</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_linkify"></a><div class="element clickable method public method_linkify " data-toggle="collapse" data-target=".method_linkify .collapse" title="public">
+<h2>Turn all URLs in clickable links.</h2>
+<pre>linkify($value) : string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>)</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument"><h4>$value</h4></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_mid"></a><div class="element clickable method public method_mid " data-toggle="collapse" data-target=".method_mid .collapse" title="public">
+<h2>Return x many characters from the starting point</h2>
+<pre>mid(string $str, integer $start, integer $howManyChars<code> = 0</code>) : string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Return x many characters from the starting point</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$str</h4>
+<code>string</code><p>String to truncate.</p></div>
+<div class="subelement argument">
+<h4>$start</h4>
+<code>integer</code><p>Where to start from the left of the string.</p></div>
+<div class="subelement argument">
+<h4>$howManyChars</h4>
+<code>integer</code><p>Number of characters to return.</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_multi_stripslashes"></a><div class="element clickable method public method_multi_stripslashes " data-toggle="collapse" data-target=".method_multi_stripslashes .collapse" title="public">
+<h2>Return array stripslasshes recursive.</h2>
+<pre>multi_stripslashes(callable $arr) </pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Return array stripslasshes recursive.</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>callable</code><p>Input array.</p></div>
+</div></div>
+</div>
+<a id="method_numberToRoman"></a><div class="element clickable method public method_numberToRoman " data-toggle="collapse" data-target=".method_numberToRoman .collapse" title="public">
+<h2>Return roman numeral.</h2>
+<pre>numberToRoman(integer $num) : string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Return roman numeral.</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$num</h4>
+<code>integer</code><p>Number to transform.</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_object2array"></a><div class="element clickable method public method_object2array " data-toggle="collapse" data-target=".method_object2array .collapse" title="public">
+<h2>Return an array from an object.</h2>
+<pre>object2array(object $object) : array</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Return an array from an object.</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$object</h4>
+<code>object</code><p>Object to transform.</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_postvar"></a><div class="element clickable method public method_postvar " data-toggle="collapse" data-target=".method_postvar .collapse" title="public">
+<h2>Prevent undefined post variables</h2>
+<pre>postvar($name, boolean $isint<code> = false</code>) : integer | mixed | string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Prevent undefined post variables</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument"><h4>$name</h4></div>
+<div class="subelement argument">
+<h4>$isint</h4>
+<code>boolean</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>integer</code><code>mixed</code><code>string</code>
+</div>
+</div></div>
+</div>
+<a id="method_postvar_default"></a><div class="element clickable method public method_postvar_default " data-toggle="collapse" data-target=".method_postvar_default .collapse" title="public">
+<h2>Return postvar with a default when blank.</h2>
+<pre>postvar_default(string $field_name, mixed $default_val<code> = ""</code>) : mixed</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Return postvar with a default is blank.</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$field_name</h4>
+<code>string</code><p>$_POST variable key name.</p></div>
+<div class="subelement argument">
+<h4>$default_val</h4>
+<code>mixed</code><p>The default value returned in the event the $_POST variable is empty or does not exist.</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>mixed</code></div>
+</div></div>
+</div>
+<a id="method_requested_url"></a><div class="element clickable method public method_requested_url " data-toggle="collapse" data-target=".method_requested_url .collapse" title="public">
+<h2>Return the requested url.</h2>
+<pre>requested_url() : string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td></td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_right"></a><div class="element clickable method public method_right " data-toggle="collapse" data-target=".method_right .collapse" title="public">
+<h2>Return characters from the right</h2>
+<pre>right(string $str, integer $howManyCharsFromRight) : string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Return characters from the right.</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$str</h4>
+<code>string</code><p>String to truncate.</p></div>
+<div class="subelement argument">
+<h4>$howManyCharsFromRight</h4>
+<code>integer</code><p>Number of characters to the right of the string.</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_send_no_cache_header"></a><div class="element clickable method public method_send_no_cache_header " data-toggle="collapse" data-target=".method_send_no_cache_header .collapse" title="public">
+<h2>Send header stuff that tells the browser not to cache this page.</h2>
+<pre>send_no_cache_header() </pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td></td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+</div></div>
+</div>
+<a id="method_servervar"></a><div class="element clickable method public method_servervar " data-toggle="collapse" data-target=".method_servervar .collapse" title="public">
+<h2>Prevent undefined server variables</h2>
+<pre>servervar($name, boolean $isint<code> = false</code>) : array | integer | string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Prevent undefined servervar variables</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument"><h4>$name</h4></div>
+<div class="subelement argument">
+<h4>$isint</h4>
+<code>boolean</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>array</code><code>integer</code><code>string</code>
+</div>
+</div></div>
+</div>
+<a id="method_sessionvar"></a><div class="element clickable method public method_sessionvar " data-toggle="collapse" data-target=".method_sessionvar .collapse" title="public">
+<h2>Prevent undefined session variables</h2>
+<pre>sessionvar(string $name, boolean $isint<code> = false</code>) : mixed</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Prevent undefined session variables</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$name</h4>
+<code>string</code><p>$_SESSION variable key</p></div>
+<div class="subelement argument">
+<h4>$isint</h4>
+<code>boolean</code><p>Response if an integer</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>mixed</code></div>
+</div></div>
+</div>
+<a id="method_setsessionvar"></a><div class="element clickable method public method_setsessionvar " data-toggle="collapse" data-target=".method_setsessionvar .collapse" title="public">
+<h2>Set session variables</h2>
+<pre>setsessionvar(string $name, boolean $value) </pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td></td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$name</h4>
+<code>string</code><p>$_SESSION variable key</p></div>
+<div class="subelement argument">
+<h4>$value</h4>
+<code>boolean</code><p>$_SESSION variable value</p></div>
+</div></div>
+</div>
+<a id="method_stringTruncate"></a><div class="element clickable method public method_stringTruncate " data-toggle="collapse" data-target=".method_stringTruncate .collapse" title="public">
+<h2>Truncate a string.</h2>
+<pre>stringTruncate(string $string, integer $limit, string $break<code> = "."</code>, string $pad<code> = "..."</code>) : string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Truncate a string.</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$string</h4>
+<code>string</code><p>The string to truncate.</p></div>
+<div class="subelement argument">
+<h4>$limit</h4>
+<code>integer</code><p>String length max.</p></div>
+<div class="subelement argument">
+<h4>$break</h4>
+<code>string</code><p>(optional) Break point, defauls to period.</p></div>
+<div class="subelement argument">
+<h4>$pad</h4>
+<code>string</code><p>(optional) String to append to the truncated string.</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>string</code>Truncated string.</div>
+</div></div>
+</div>
+<a id="method_truncate"></a><div class="element clickable method public method_truncate " data-toggle="collapse" data-target=".method_truncate .collapse" title="public">
+<h2>Return truncated number.</h2>
+<pre>truncate(integer $num, integer $digits<code> = 0</code>) : integer</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Return truncated number.</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$num</h4>
+<code>integer</code><p>Number to truncate.</p></div>
+<div class="subelement argument">
+<h4>$digits</h4>
+<code>integer</code><p>Number of digits to truncate.</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>integer</code></div>
+</div></div>
+</div>
+<a id="method_uuid"></a><div class="element clickable method public method_uuid " data-toggle="collapse" data-target=".method_uuid .collapse" title="public">
+<h2>Return a 32 bit unique ID</h2>
+<pre>uuid() : string</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Return a 32 bit unique ID</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>string</code>32 character unique ID.</div>
+</div></div>
+</div>
+<a id="method_xml2array"></a><div class="element clickable method public method_xml2array " data-toggle="collapse" data-target=".method_xml2array .collapse" title="public">
+<h2>Return an array from xml string.</h2>
+<pre>xml2array(string $xmlstring) : array</pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>method</th>
+<td>Return an array from xml string.</td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">Brian Tafoya</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright 2001 - 2017, Brian Tafoya.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$xmlstring</h4>
+<code>string</code><p>XML to process.</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.8.5</a> and<br>
+            generated on 2017-05-31T13:20:06-04:00.<br></footer></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "dropitforme/dropitforme-client": "^1.0"
+    }
+}
